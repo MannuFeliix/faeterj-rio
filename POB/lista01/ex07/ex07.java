@@ -8,9 +8,21 @@ public class ex07
     {
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Entre com o valor da base para o retângulo");
+        System.out.println("Entre com o valor da base: ");
+        int base = entrada.nextInt();
+        
+        System.out.println("Entre com o valor da altura: ");
+        int altura = entrada.nextInt();
 
+        int area = base*altura;
 
+        System.out.println("A área do retângulo é: "+area);
+
+        int perimetro = 2 *(base+altura);
+
+        System.out.println("O perímetro do retângulo é: "+perimetro);
+
+        entrada.close();
         
     }
     
