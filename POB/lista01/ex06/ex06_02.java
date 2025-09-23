@@ -14,9 +14,9 @@ public class ex06_02
         System.out.println("Entre com o valor do desconto do INSS em porcentagem:");
         float percent = entrada.nextFloat();
 
-        percent = percent/100; //percent /=100
+        percent = percent/(float)100; //percent /=100
 
-        float salarioLiquido = salario-percent;
+        float salarioLiquido = salario*(1-percent);
 
         System.out.println("O valor do sálario com o desconto é R$"+salarioLiquido);
 
