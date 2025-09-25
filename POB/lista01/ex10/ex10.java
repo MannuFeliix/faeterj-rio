@@ -1,7 +1,7 @@
 package POB.lista01.ex10;
 
 import java.util.Scanner;
-import java.lang.*;
+
 
 /* Distância Entre Dois Pontos : Desenvolva um programa que leia as coordenadas x1, y1 e x2, y2 de dois pontos no plano cartesiano e calcule a distância entre eles.
 
